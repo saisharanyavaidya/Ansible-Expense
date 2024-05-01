@@ -26,3 +26,7 @@
         login_host: "{{login_host}}"
         filter: version
       register: mysql_connection_output
+
+    - name: print db connection
+      ansible.builtin.debug:
+        msg: "{{mysql_connection_output}}"
