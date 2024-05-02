@@ -3,3 +3,6 @@ db.avyan.site
 
 [backend]
 backend.avyan.site
+
+[frontend]
+avyan.site
